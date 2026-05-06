@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [6.5.1](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/compare/v6.5.0...v6.5.1) (2026-04-27)
+
+### Bug Fixes
+
+* Logging v2 CloudWatch resources only support `us-east-1` ([#203](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/issues/203)) ([62ad47c](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/commit/62ad47ce0390c77a1fbe0add6c6484f1acdb2b68))
+
+## [6.5.0](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/compare/v6.4.1...v6.5.0) (2026-04-22)
+
+### Features
+
+* Add support for cross-account vpc origins ([#200](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/issues/200)) ([314e784](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/commit/314e784a840c3d1dbd7d2d3ab4418eb82dd8d692))
+
+## [6.4.1](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/compare/v6.4.0...v6.4.1) (2026-04-13)
+
+### Bug Fixes
+
+* Correct v2_logging example configuration ([#198](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/issues/198)) ([3db0f62](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/commit/3db0f6285f29fbce65d12b9d851b403d1dede6ff))
+
 ## [6.4.0](https://github.com/terraform-aws-modules/terraform-aws-cloudfront/compare/v6.3.0...v6.4.0) (2026-02-03)
 
 ### Features
